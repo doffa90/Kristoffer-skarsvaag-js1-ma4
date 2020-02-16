@@ -40,14 +40,5 @@ function createGames(json) {
                 <img src="${result.background_image}" alt="${result.name}">
               </div>`;
 	});
-
-	/*
-  for (let i = 0; i < results.length; i++) {
-    html += `<div class="game">
-                <h2>${results[i].name}</h2>
-                <img src="${results[i].background_image}" alt="${results[i].name}">
-            </div>`;
-  }
-  */
 	resultsContainer.innerHTML = html;
 }
